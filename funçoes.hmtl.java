@@ -1,0 +1,13 @@
+const frutas = ["Maçã", "Banana", "Uva"];
+
+console.log("--- Loop FOR ---");
+for (let i = 0; i < frutas.length; i++) {
+  console.log(frutas[i]);
+}
+
+console.log("--- Loop WHILE ---");
+let j = 0;
+while (j < frutas.length) {
+  console.log(frutas[j]);
+  j++;
+}
